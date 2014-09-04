@@ -1,5 +1,5 @@
 deployment:
   production:
-    branch: skylight
+    branch: skylight-dev
     commands:
-      - curl $DEPLOYMENT_URL
+      - git push origin skylight-dev:skylight
